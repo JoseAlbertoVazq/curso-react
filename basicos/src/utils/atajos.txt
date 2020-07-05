@@ -1,0 +1,1 @@
+Al crear un componente : imr  => import React from 'react'; + sfc => crea la estructura de componente + export
