@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     const consultarAPI = async () => {
       if (consultar) {
-        const apiKey = "b4d11f4d00ecefb557c609853df9bee6";
+        const apiKey = "tu_api_key";
         const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${apiKey}`;
 
         const respuesta = await fetch(url);
